@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9393737"
+    android:gravity="center|fill_vertical"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:gravity="bottom|top"
+        app:srcCompat="@drawable/logospotify"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:textColor="#F3EBEB"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="181dp" />
+
+    <EditText
+        android:id="@+id/txtGetUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:inputType="textEmailAddress"
+        android:textColor="#F3EBEB"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="#F3EBEB"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+
+    <EditText
+        android:id="@+id/txtGetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPassword"
+        android:textColor="#F3EBEB"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLogin" />
+
+    <Button
+        android:id="@+id/btnRecuperaPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRecuperaPass" />
+
+
+</LinearLayout>

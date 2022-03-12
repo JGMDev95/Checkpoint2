@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Spotify</string>
+
+    <!--Error-->
+    <string name="error_user">El campo usuario esta vacio</string>
+    <string name="error_pass">El campo contraseña esta vacio</string>
+    <string name="error_mail">El campo email esta vacio</string>
+    <string name="login_failed">Usuario y/o contraseña invalida!</string>
+    <string name="mailWrong">El correo electronico no existe.</string>
+
+    <!--Button-->
+    <string name="btnLogin">Ingresar</string>
+    <string name="btnSendMail">Enviar</string>
+    <string name="btnRecuperaPass">Recuperar Contraseña</string>
+
+    <!--Success Messages-->
+    <string name="login_success">Bienvenido de nuevo!</string>
+    <string name="txtsend_mail">Se ha enviado un enlace de recuperación al correo indicado.</string>
+
+    <!--Info Messages-->
+    <string name="txtContent1">Restablecimiento de contraseña</string>
+    <string name="txtContent2">Pon tu nombre de usuario de Spotify, o la dirección de correo electrónico que usaste para registrarte.</string>
+    <string name="txtContent3">Te enviaremos un mensaje con tu nombre de usuario y un enlace para restablecer tu contraseña.</string>
+    <string name="txtContent4">Si aún necesitas ayuda, ponte en contacto con el Soporte de Spotify</string>
+    <string name="title_activity_recupera_pass">RecuperaPassActivity</string>
+</resources>
